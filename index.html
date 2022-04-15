@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="esquerda">
+            <h1 class="txte">Seu voto vai para:</h1>
+            <input type="text" name="candidato" id="cand" maxlength="2">
+            <h2 class="txte" id="pres">  &nbsp</h2>
+            <img src="img/ini.jpg" class="cand" id="imgCand">
+            <div class="nome">
+            <h3 class="txte" id="name"> &nbsp </h3>                
+            <p class="candname" id="nomeCand">&nbsp</p>
+        </div>
+        </div>
+        
+        <div class="direita">
+            <div class="tec">
+                <div class="l1">
+                    <input type="button" value="1" class="btnTec" onclick="gerarVoto(1);">
+                    <input type="button" value="2" class="btnTec" onclick="gerarVoto(2);">
+                    <input type="button" value="3" class="btnTec" onclick="gerarVoto(3);">
+                </div>
+                <div class="l2">
+                    <input type="button" value="4" class="btnTec" onclick="gerarVoto(4);">
+                    <input type="button" value="5" class="btnTec" onclick="gerarVoto(5);">
+                    <input type="button" value="6" class="btnTec" onclick="gerarVoto(6);">
+                </div>        
+                <div class="l3">
+                    <input type="button" value="7" class="btnTec" onclick="gerarVoto(7);">
+                    <input type="button" value="8" class="btnTec" onclick="gerarVoto(8);">
+                    <input type="button" value="9" class="btnTec" onclick="gerarVoto(9);">
+                </div>
+                <div class="l4">
+                    <input type="button" value="0" class="btnTec" onclick="gerarVoto(0);">
+                </div>
+            </div>
+            <br><br>
+            <input type="button" value="Confirmar" class="btnOp1" onclick="confirm();">
+            <input type="button" value="Corrigir" class="btnOp2" onclick="apagar();">
+            <input type="button" value="Branco" class="btnOp3" onclick="branco();">
+        </div>
+    </div>
+    <br><br>
+    <input type="button" value="Ajuda Candidatos" id="help" onclick="ajuda();">
+    <br><br><br>
+    <input type="button" value="Reiniciar Urna" id="reiniciar" onclick="reiniciar();">
+    <script src="js/script.js"></script>
+</body>
+</html>
