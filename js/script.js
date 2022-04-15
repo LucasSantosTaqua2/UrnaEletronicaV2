@@ -1,5 +1,4 @@
  var voto = "";
- var timeoutID;
 
  function gerarVoto(v){     
     voto += v;
