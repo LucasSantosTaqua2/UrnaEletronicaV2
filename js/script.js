@@ -42,13 +42,15 @@
  }
 
  function apagar(){
-    document.getElementById("cand").value= "";
-    document.getElementById("imgCand").src = "img/ini.jpg";
-    document.getElementById("nomeCand").innerText = "";  
-    voto = "";  
-    const tecla = new Audio('sound/tecla.mp3');
+   document.getElementById("cand").value= "";
+   document.getElementById("imgCand").src = "img/corrigido.jpg";
+   document.getElementById("nomeCand").innerText = "⠀⠀⠀⠀⠀⠀⠀⠀";  
+   document.getElementById("name").innerText = "⠀⠀⠀⠀⠀⠀⠀⠀";
+   document.getElementById("pres").innerText = "⠀⠀⠀⠀⠀⠀⠀⠀";
+   voto = "";  
+   const tecla = new Audio('sound/tecla.mp3');
         tecla.play();
-        tecla.loop = false;
+        tecla.loop = false;  
  }
 
  function branco(){
@@ -137,4 +139,3 @@ function helpimage6(){
         c6.play();
         c6.loop = false;
 }
- 
