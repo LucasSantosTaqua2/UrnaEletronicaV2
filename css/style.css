@@ -5,7 +5,7 @@
     justify-content: center; 
     align-items: center;
     background-color:white;
-    border: 1px solid black;    
+    border: 2px solid black;    
     box-shadow: 10px 10px 60px 10px black;    
       
 }
@@ -13,11 +13,10 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-  
     align-items: center;
     background-color:white;  
     padding-bottom: 70px;
-    border: 1px solid black;
+    border: 2px solid black;
     box-shadow: 10px 10px 60px 10px black;          
 }
 .proposta{
@@ -65,12 +64,13 @@
 }
 
 .btnTec{
-    width: 85px;
-    height: 35px;
+    width: 90px;
+    height: 40px;
     background-color: black;
     color: white;
     font-size: 20pt;
     cursor: pointer;
+    border-radius: 7px;
 }
 .btnTec:hover{
     background-color: rgb(49, 49, 49);
@@ -127,6 +127,7 @@
     background-color: rgb(104, 172, 2);
     font-size: 16pt;
     font-family: Calibri;
+    border-radius: 7px;
     cursor: pointer;
 }
 .btnOp1:hover{
@@ -140,6 +141,7 @@
     background-color: orange;
     font-size: 16pt;
     font-family: Calibri;
+    border-radius: 7px;
     cursor: pointer;
 }
 .btnOp2:hover{
@@ -154,6 +156,7 @@
     font-size: 16pt;
     font-family: Calibri;
     cursor: pointer;
+    border-radius: 7px;
 }
 .btnOp3:hover{
     background-color: rgb(133, 133, 133);
@@ -271,3 +274,18 @@ body{
     background-color: rgb(158, 37, 37);
     color: #fff;
 }
+
+/*.c-loader{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid #e5e5e5;
+    border-top-color: #0d730d;
+    animation: is-rotating 1s infinite;
+  }
+  
+  @keyframes is-rotating{
+    to{
+      transform: rotate(1turn);
+    }
+  } */

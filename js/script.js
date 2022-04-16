@@ -105,6 +105,7 @@ function helpimage2(){
    const c2 = new Audio('sound/galodoido.mp3');
         c2.play();
         c2.loop = false;
+   
         
 }
 function helpimage3(){
