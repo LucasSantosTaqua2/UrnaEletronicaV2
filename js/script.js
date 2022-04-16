@@ -81,6 +81,7 @@
  function reiniciar(){
     document.getElementById("reiniciar").click;
     window.location.href = "index.html";
+    alert ("Urna Reiniciada!")
  }
 
  function back(){

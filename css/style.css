@@ -57,6 +57,7 @@
 #cand{
     font-size: 16pt;
     border: 2px solid black;
+    cursor: default;
 }
 
 #imgcand{
@@ -69,7 +70,12 @@
     background-color: black;
     color: white;
     font-size: 20pt;
+    cursor: pointer;
 }
+.btnTec:hover{
+    background-color: rgb(49, 49, 49);
+}
+
 .helpname{
     text-decoration: none;
 }
@@ -121,6 +127,11 @@
     background-color: rgb(104, 172, 2);
     font-size: 16pt;
     font-family: Calibri;
+    cursor: pointer;
+}
+.btnOp1:hover{
+    background-color: rgb(86, 131, 20);
+    color: #fff;
 }
 
 .btnOp2{
@@ -129,6 +140,11 @@
     background-color: orange;
     font-size: 16pt;
     font-family: Calibri;
+    cursor: pointer;
+}
+.btnOp2:hover{
+    background-color: rgb(134, 90, 9);
+    color: #fff;
 }
 
 .btnOp3{
@@ -137,6 +153,11 @@
     background-color: white;
     font-size: 16pt;
     font-family: Calibri;
+    cursor: pointer;
+}
+.btnOp3:hover{
+    background-color: rgb(133, 133, 133);
+    color: #fff;
 }
 
 .cand{
@@ -163,6 +184,10 @@ body{
 #help{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
+}
+#help:hover{
+    background-color: rgb(197, 178, 155);
 }
 
 .txtProp{
@@ -172,26 +197,55 @@ body{
 #c1{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
 }
+#c1:hover{
+    background-color: rgb(187, 168, 144);
+}
+
 #c2{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
 }
+#c2:hover{
+    background-color: rgb(187, 168, 144);
+}
+
 #c3{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
 }
+#c3:hover{
+    background-color: rgb(187, 168, 144);
+}
+
 #c4{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
 }
+#c4:hover{
+    background-color: rgb(187, 168, 144);
+}
+
 #c5{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
 }
+#c5:hover{
+    background-color: rgb(187, 168, 144);
+}
+
 #c6{
     font-size: 16pt;
     background-color: bisque;
+    cursor: pointer;
+}
+#c6:hover{
+    background-color: rgb(187, 168, 144);
 }
 
 #voltar{
@@ -200,11 +254,20 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 16pt;
+    cursor: pointer;
     background-color: bisque;
+}
+#voltar:hover{
+    background-color: rgb(187, 168, 144);
+    
 }
 
 #reiniciar{
     font-size: 16pt;
     background-color: rgb(206, 83, 83);
-
+    cursor: pointer;
+}
+#reiniciar:hover{
+    background-color: rgb(158, 37, 37);
+    color: #fff;
 }
