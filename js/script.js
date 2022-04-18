@@ -1,5 +1,6 @@
  var voto = "";
 
+ //Geração do voto
  function gerarVoto(v){     
     voto += v;
     if(voto.length <= 2){
@@ -14,6 +15,7 @@
     }
  }
 
+ //Geração da imagem
  function gerarImagem(){
      let vVoto = parseInt(document.getElementById("cand").value);
      if(vVoto == 13){
@@ -40,6 +42,7 @@
      }
  }
 
+ //Corrigir o voto
  function apagar(){
    document.getElementById("cand").value= "";
    document.getElementById("imgCand").src = "img/corrigido.jpg";
@@ -52,6 +55,7 @@
         tecla.loop = false;  
  }
 
+ //Voto em branco
  function branco(){
     document.getElementById("cand").value= "";
     document.getElementById("imgCand").src = "img/votob.jpg";
@@ -62,6 +66,7 @@
         tecla.loop = false;
  }
 
+ //Confirmar o voto
  function confirm(){
    const confirm = new Audio('sound/confirmsound.mp3');
    confirm.play();
@@ -72,24 +77,27 @@
    document.getElementById("pres").innerText = "Votação concluida";
  }
 
+ //Leva para a aba de ajuda
  function ajuda(){
    document.getElementById("help").click;
    window.location.href = "help.html";
 
  }
 
+ //Recarrega a página da urna
  function reiniciar(){
     document.getElementById("reiniciar").click;
     window.location.href = "index.html";
     alert ("Urna Reiniciada!")
  }
 
+ //Volta para a urna quando está na pagina de ajuda
  function back(){
    document.getElementById("voltar").click;
    window.location.href = "index.html";
  }
 
-
+//Fotos na aba de ajuda
 function helpimage1(){
     document.getElementById("c1").click;
     document.getElementById("fotocan").src = "img/merezperece.jpg";
@@ -105,8 +113,6 @@ function helpimage2(){
    const c2 = new Audio('sound/galodoido.mp3');
         c2.play();
         c2.loop = false;
-   
-        
 }
 function helpimage3(){
    document.getElementById("c3").click;
